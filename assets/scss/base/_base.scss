@@ -2,14 +2,23 @@
 
 body {
     font-family: variable.$font-regular;
-    margin: 0.5rem 5rem 0 5rem;
+    margin: 0.5rem 3rem 0 10rem;
 }
 
 h1 {
     font-family: variable.$font-bold;
     color: variable.$color-secondary;
+    font-size: 3rem;
+
+}
+h2 {
+    font-family: variable.$font-bold;
+    color: variable.$color-primary;
+    font-size: 2rem;
+
 }
 p {
     font-family: variable.$font-regular;
     color: variable.$color-secondary;
+    font-size: 1rem;
 }

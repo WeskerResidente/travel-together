@@ -9,13 +9,26 @@
 
     .txt {
         width: 80%;
+        margin-left: 3rem;
+        p{
+            margin-top: 0;
+            margin-bottom: 4rem;
+        }
+        h1{
+            margin-bottom: 1rem;
+        }
+
     }
     div {
-        width: 50%;
+        width: 30%;
+        margin-right: 10rem;
+
+        
         img {
-            width: 70%;
-            margin-bottom: -8rem;
+            width: 100%;
+            margin-bottom: -28rem;
             margin-left: 2rem;
+            
         }
 
     }
