@@ -1,0 +1,6 @@
+@use "../abstracts/variable" as variable;
+@use "../abstracts/mixins" as mixin; 
+
+.btn {
+    @include mixin.btn;
+}

@@ -1,0 +1,15 @@
+@use "../abstracts/variable";
+
+body {
+    font-family: variable.$font-regular;
+    margin: 0.5rem 5rem 0 5rem;
+}
+
+h1 {
+    font-family: variable.$font-bold;
+    color: variable.$color-secondary;
+}
+p {
+    font-family: variable.$font-regular;
+    color: variable.$color-secondary;
+}

@@ -1,0 +1,8 @@
+@use "../abstracts/variable" as variable;
+
+.banniere {
+    margin-top: 5rem;
+    padding: 2rem 3rem 3rem 2rem;
+    background-color: variable.$color-terciory;
+    border-radius: 5px;
+}

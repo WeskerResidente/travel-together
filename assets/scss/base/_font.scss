@@ -1,0 +1,10 @@
+@use "../abstracts/variable" as variable;
+
+@font-face {
+    font-family: variable.$font-bold;
+    src: url(/assets/font/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: variable.$font-regular;
+    src: url(/assets/font/Lato/Lato-Regular.ttf);
+}

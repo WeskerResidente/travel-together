@@ -1,0 +1,23 @@
+@use "../abstracts/variable" as variable;
+@use "../components/block-info" as block;
+@use "../components/btn" as btn;
+
+.banniere {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+    .txt {
+        width: 80%;
+    }
+    div {
+        width: 50%;
+        img {
+            width: 70%;
+            margin-bottom: -8rem;
+            margin-left: 2rem;
+        }
+
+    }
+
+}
