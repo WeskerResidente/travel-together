@@ -1,14 +1,13 @@
 @use "../abstracts/variable" as variable;
 @use "../base/font" as font;
 
-header {
-    margin: 0.5rem 0rem 0 5rem;
+.container {
     display: flex;
     justify-content: space-between;
 
     img {
         width: 25%;
-        height: 25%;
+
     }
     ul {
         display: flex;

@@ -2,47 +2,59 @@
 @use "../base/font" as font;
 @use "../components/img" as img;
 
-.services {
-    margin: 0.5rem 3rem 0 5rem;
-    margin-top: 2rem;
-    display: flex;
-        .srv1 {
-            background:linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/homme-assis-batiment.jpg);
-            background-size: cover;
-            background-position: center;
-            height: 65vh;
-        }
-        .srv2 {
-            background:linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/passport.jpg);
-            background-size: cover;
-            background-position: center;
-            height: 50%;
-        }
-        .srv3 {
-            background:linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/montgolfiere.jpg);
-            background-size: cover;
-            background-position: center;
-            height: 47%;
-            margin-top: 1rem;
+.container {
+    .services {
+        margin-top: 2rem;
 
+        width: 100%;
+        .passeport {
+            width: 100%;
+            margin-right: 1rem;
+            .passeport {
+                margin-top: 5.7rem;
+               
+            }
+        }
+        .passeport {
+            display: flex;
+            h3 {
+                text-align: center;
+            }
+            p  {
+                text-align: center;
+            }
+            p::after {
+                content: ">";
+                color: orange;
+            }
             
         }
-    div {
-        width: 100%;
-        margin-right: 1rem;
+            .srv1 {
+                background:linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/homme-assis-batiment.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 65vh;
+                width: 100%;
+            }
+            .srv2 {
+                background:linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/passport.jpg);
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+            }
+            .srv3 {
+                background:linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/montgolfiere.jpg);
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+            }
+        .right {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+
     }
-    .passeport {
-        margin-top: 5.7rem;
-       
-    }
-    h3 {
-        text-align: center;
-    }
-    p  {
-        text-align: center;
-    }
-    p::after {
-        content: ">";
-        color: orange;
-    }
+
 }

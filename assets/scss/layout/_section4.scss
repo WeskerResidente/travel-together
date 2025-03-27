@@ -4,18 +4,17 @@
 
 
 .ban-bot {
-    margin: 0.5rem 3rem 0 5rem;
-    margin-top: 13rem;
     display: flex;
     justify-content: space-between;
     align-content: center;
-    transform: translateY(1rem);
+    transform: translateY(-2rem);
     div{
         width: 50%;
         h2 {
             color: variable.$color-secondary;
     
         }
+
     }
     .btn-bot  {
         width: 23%;

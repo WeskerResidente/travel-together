@@ -4,7 +4,12 @@ body {
     font-family: variable.$font-regular;
     margin: 0 auto;
 }
-
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem; 
+}
 h1 {
     font-family: variable.$font-bold;
     color: variable.$color-secondary;
@@ -31,6 +36,7 @@ h5 {
     font-family: variable.$font-bold;
     color: variable.$color-secondary;
     margin-bottom: 0;
+
 
 }
 p {

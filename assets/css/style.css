@@ -11,6 +11,13 @@ body {
   margin: 0 auto;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 h1 {
   font-family: "Lato Bold";
   color: #fff;
@@ -47,24 +54,22 @@ p {
   font-size: 1rem;
 }
 
-header {
-  margin: 0.5rem 0rem 0 5rem;
+.container {
   display: flex;
   justify-content: space-between;
 }
-header img {
+.container img {
   width: 25%;
-  height: 25%;
 }
-header ul {
+.container ul {
   display: flex;
 }
-header ul li {
+.container ul li {
   list-style: none;
   margin-right: 2rem;
   margin-top: 0;
 }
-header ul a {
+.container ul a {
   text-decoration: none;
   font-family: "Lato Regular";
   color: #000;
@@ -90,7 +95,6 @@ header ul a {
 }
 
 .ban-top {
-  margin: 0.5rem 3rem 0 5rem;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
@@ -112,8 +116,7 @@ header ul a {
 }
 .ban-top div img {
   width: 100%;
-  margin-bottom: -28rem;
-  margin-left: 2rem;
+  margin-bottom: -34rem;
 }
 
 .picture {
@@ -123,90 +126,93 @@ header ul a {
   align-content: center;
 }
 
-.services {
-  margin: 0.5rem 3rem 0 5rem;
+.container .services {
   margin-top: 2rem;
+  width: 100%;
+}
+.container .services .passeport {
+  width: 100%;
+  margin-right: 1rem;
+}
+.container .services .passeport .passeport {
+  margin-top: 5.7rem;
+}
+.container .services .passeport {
   display: flex;
 }
-.services .srv1 {
+.container .services .passeport h3 {
+  text-align: center;
+}
+.container .services .passeport p {
+  text-align: center;
+}
+.container .services .passeport p::after {
+  content: ">";
+  color: orange;
+}
+.container .services .srv1 {
   background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/homme-assis-batiment.jpg);
   background-size: cover;
   background-position: center;
   height: 65vh;
+  width: 100%;
 }
-.services .srv2 {
+.container .services .srv2 {
   background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/passport.jpg);
   background-size: cover;
   background-position: center;
-  height: 50%;
+  width: 100%;
 }
-.services .srv3 {
+.container .services .srv3 {
   background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/montgolfiere.jpg);
   background-size: cover;
   background-position: center;
-  height: 47%;
-  margin-top: 1rem;
-}
-.services div {
   width: 100%;
-  margin-right: 1rem;
 }
-.services .passeport {
-  margin-top: 5.7rem;
-}
-.services h3 {
-  text-align: center;
-}
-.services p {
-  text-align: center;
-}
-.services p::after {
-  content: ">";
-  color: orange;
+.container .services .right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-.features {
-  margin: 0.5rem 3rem 0 5rem;
-}
-.features .wave {
+.container .features .wave {
   z-index: -1;
   position: absolute;
   margin-left: -13rem;
-  margin-top: -22rem;
+  margin-top: -28rem;
+  width: 100%;
 }
-.features h2 {
+.container .features h2 {
   text-align: right;
   margin-bottom: 5rem;
 }
-.features i {
+.container .features i {
   color: #e7816b;
   transform: scale(3);
 }
-.features .block-card {
+.container .features .block-card {
   display: flex;
   justify-content: space-around;
 }
-.features .block-card .card {
+.container .features .block-card .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 20%;
 }
-.features .block-card h4 {
+.container .features .block-card h4 {
   margin-bottom: 0;
 }
-.features .block-card p {
+.container .features .block-card p {
   color: #000;
   text-align: center;
 }
 
 .ban-bot {
-  margin: 0.5rem 3rem 0 5rem;
-  margin-top: 13rem;
   display: flex;
   justify-content: space-between;
   align-content: center;
-  transform: translateY(1rem);
+  transform: translateY(-2rem);
 }
 .ban-bot div {
   width: 50%;
@@ -223,7 +229,9 @@ header ul a {
 footer {
   margin-top: -11rem;
   background-color: black;
-  padding-top: 15rem;
+  padding-top: 12rem;
+}
+footer .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -232,11 +240,10 @@ footer .footer-top {
   display: flex;
   justify-content: space-between;
   border-bottom: white solid 1px;
-  margin: 0 3rem 0rem 5rem;
   padding-bottom: 2rem;
 }
 footer .footer-top .Logo-white {
-  width: 30%;
+  width: 50;
 }
 footer .footer-top .Logo-white img {
   width: 50%;
@@ -256,7 +263,7 @@ footer .footer-top ul a {
 }
 footer .footer-bot {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 90%;
   padding-bottom: 5rem;
 }
@@ -273,6 +280,7 @@ footer .footer-bot i {
 }
 footer .footer-bot p {
   margin: 0;
+  text-align: start;
 }
 
 /*# sourceMappingURL=style.css.map */
