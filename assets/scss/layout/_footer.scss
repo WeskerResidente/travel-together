@@ -1,0 +1,61 @@
+@use "../abstracts/variable" as variable;
+
+footer {
+    
+    margin-top: -11rem;
+    background-color: black;
+    padding-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: white solid 1px;
+        margin: 0  3rem 0rem 5rem;
+        padding-bottom: 2rem;
+            .Logo-white {
+                width: 30%;
+                img {
+                    width: 50%;
+                }
+            }
+            ul {
+                display: flex;
+                li {
+                    list-style: none;
+                    margin-right: 2rem;
+                    margin-top: 0;
+                }
+                a {
+                    text-decoration: none;
+                    font-family: variable.$font-regular;
+                    color: variable.$color-secondary;
+                }
+            }
+    }
+
+
+    .footer-bot  {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        padding-bottom: 5rem;
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 13%;
+        }
+        i {
+            color: variable.$color-secondary;
+            margin-left: 2rem;
+            transform: scale(2)
+        }
+        p {
+            margin:0;
+        }
+
+    }
+}

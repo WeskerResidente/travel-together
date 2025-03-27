@@ -1,10 +1,11 @@
 @use "../abstracts/variable" as variable;
 
 .features {
+    margin: 0.5rem 3rem 0 5rem;
     .wave {
         z-index: -1;
         position: absolute;
-        margin-left: -20rem;
+        margin-left: -13rem;
         margin-top: -22rem;
     }
     

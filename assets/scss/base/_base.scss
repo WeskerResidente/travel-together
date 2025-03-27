@@ -2,7 +2,7 @@
 
 body {
     font-family: variable.$font-regular;
-    margin: 0.5rem 3rem 0 10rem;
+    margin: 0 auto;
 }
 
 h1 {
@@ -25,7 +25,13 @@ h3{
 }
 h4 {
     font-family: variable.$font-bold;
-        font-size: 1.5rem;
+    font-size: 1.5rem;
+}
+h5 {
+    font-family: variable.$font-bold;
+    color: variable.$color-secondary;
+    margin-bottom: 0;
+
 }
 p {
     font-family: variable.$font-regular;

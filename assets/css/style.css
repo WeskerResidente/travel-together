@@ -8,7 +8,7 @@
 }
 body {
   font-family: "Lato Regular";
-  margin: 0.5rem 3rem 0 10rem;
+  margin: 0 auto;
 }
 
 h1 {
@@ -35,6 +35,12 @@ h4 {
   font-size: 1.5rem;
 }
 
+h5 {
+  font-family: "Lato Bold";
+  color: #fff;
+  margin-bottom: 0;
+}
+
 p {
   font-family: "Lato Regular";
   color: #fff;
@@ -42,6 +48,7 @@ p {
 }
 
 header {
+  margin: 0.5rem 0rem 0 5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -83,6 +90,7 @@ header ul a {
 }
 
 .ban-top {
+  margin: 0.5rem 3rem 0 5rem;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
@@ -116,6 +124,7 @@ header ul a {
 }
 
 .services {
+  margin: 0.5rem 3rem 0 5rem;
   margin-top: 2rem;
   display: flex;
 }
@@ -129,13 +138,13 @@ header ul a {
   background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/passport.jpg);
   background-size: cover;
   background-position: center;
-  height: 32vh;
+  height: 50%;
 }
 .services .srv3 {
   background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/montgolfiere.jpg);
   background-size: cover;
   background-position: center;
-  height: 30vh;
+  height: 47%;
   margin-top: 1rem;
 }
 .services div {
@@ -143,7 +152,7 @@ header ul a {
   margin-right: 1rem;
 }
 .services .passeport {
-  margin-top: 9.5em;
+  margin-top: 5.7rem;
 }
 .services h3 {
   text-align: center;
@@ -156,10 +165,13 @@ header ul a {
   color: orange;
 }
 
+.features {
+  margin: 0.5rem 3rem 0 5rem;
+}
 .features .wave {
   z-index: -1;
   position: absolute;
-  margin-left: -20rem;
+  margin-left: -13rem;
   margin-top: -22rem;
 }
 .features h2 {
@@ -189,10 +201,12 @@ header ul a {
 }
 
 .ban-bot {
+  margin: 0.5rem 3rem 0 5rem;
   margin-top: 13rem;
   display: flex;
   justify-content: space-between;
   align-content: center;
+  transform: translateY(1rem);
 }
 .ban-bot div {
   width: 50%;
@@ -204,6 +218,61 @@ header ul a {
   width: 23%;
   margin-top: 2rem;
   align-content: center;
+}
+
+footer {
+  margin-top: -11rem;
+  background-color: black;
+  padding-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: white solid 1px;
+  margin: 0 3rem 0rem 5rem;
+  padding-bottom: 2rem;
+}
+footer .footer-top .Logo-white {
+  width: 30%;
+}
+footer .footer-top .Logo-white img {
+  width: 50%;
+}
+footer .footer-top ul {
+  display: flex;
+}
+footer .footer-top ul li {
+  list-style: none;
+  margin-right: 2rem;
+  margin-top: 0;
+}
+footer .footer-top ul a {
+  text-decoration: none;
+  font-family: "Lato Regular";
+  color: #fff;
+}
+footer .footer-bot {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-bottom: 5rem;
+}
+footer .footer-bot .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13%;
+}
+footer .footer-bot i {
+  color: #fff;
+  margin-left: 2rem;
+  transform: scale(2);
+}
+footer .footer-bot p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
