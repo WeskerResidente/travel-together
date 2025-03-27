@@ -1,0 +1,26 @@
+@use "../abstracts/variable";
+@use "../components/block-info" as block;
+@use "../components/btn" as btn;
+
+
+.ban-bot {
+    margin-top: 13rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    div{
+        width: 50%;
+        h2 {
+            color: variable.$color-secondary;
+    
+        }
+    }
+    .btn-bot  {
+        width: 23%;
+        margin-top: 2rem;
+        align-content: center;
+
+
+
+    }
+}

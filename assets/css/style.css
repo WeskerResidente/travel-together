@@ -82,27 +82,27 @@ header ul a {
   box-shadow: 0px 0px 5px black;
 }
 
-.banniere {
+.ban-top {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
 }
-.banniere .txt {
+.ban-top .txt {
   width: 80%;
   margin-left: 3rem;
 }
-.banniere .txt p {
+.ban-top .txt p {
   margin-top: 0;
   margin-bottom: 4rem;
 }
-.banniere .txt h1 {
+.ban-top .txt h1 {
   margin-bottom: 1rem;
 }
-.banniere div {
+.ban-top div {
   width: 30%;
   margin-right: 10rem;
 }
-.banniere div img {
+.ban-top div img {
   width: 100%;
   margin-bottom: -28rem;
   margin-left: 2rem;
@@ -156,39 +156,54 @@ header ul a {
   color: orange;
 }
 
-.wave {
+.features .wave {
   z-index: -1;
   position: absolute;
   margin-left: -20rem;
   margin-top: -22rem;
 }
-
-h2 {
+.features h2 {
   text-align: right;
   margin-bottom: 5rem;
 }
-
-i {
+.features i {
   color: #e7816b;
   transform: scale(3);
 }
-
-.block-card {
+.features .block-card {
   display: flex;
   justify-content: space-around;
 }
-.block-card .card {
+.features .block-card .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 20%;
 }
-.block-card h4 {
+.features .block-card h4 {
   margin-bottom: 0;
 }
-.block-card p {
+.features .block-card p {
   color: #000;
   text-align: center;
+}
+
+.ban-bot {
+  margin-top: 13rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.ban-bot div {
+  width: 50%;
+}
+.ban-bot div h2 {
+  color: #fff;
+}
+.ban-bot .btn-bot {
+  width: 23%;
+  margin-top: 2rem;
+  align-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
