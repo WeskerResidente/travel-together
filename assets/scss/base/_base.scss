@@ -17,6 +17,12 @@ h2 {
     font-size: 2rem;
 
 }
+h3{
+    font-family: variable.$font-bold;
+    color: variable.$color-secondary;
+    font-size: 2rem;
+    text-transform:uppercase;
+}
 p {
     font-family: variable.$font-regular;
     color: variable.$color-secondary;

@@ -23,6 +23,13 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  font-family: "Lato Bold";
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
 p {
   font-family: "Lato Regular";
   color: #fff;
@@ -99,6 +106,9 @@ header ul a {
 .picture {
   border-radius: 10px;
   box-shadow: 0 0 5px black;
+  align-items: center;
+  align-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
 .services {
@@ -106,19 +116,19 @@ header ul a {
   display: flex;
 }
 .services .srv1 {
-  background-image: url(/assets/img/homme-assis-batiment.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/homme-assis-batiment.jpg);
   background-size: cover;
   background-position: center;
   height: 65vh;
 }
 .services .srv2 {
-  background-image: url(/assets/img/passport.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/passport.jpg);
   background-size: cover;
   background-position: center;
   height: 32vh;
 }
 .services .srv3 {
-  background-image: url(/assets/img/montgolfiere.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/montgolfiere.jpg);
   background-size: cover;
   background-position: center;
   height: 30vh;
@@ -126,12 +136,20 @@ header ul a {
 }
 .services div {
   width: 100%;
-  display: flex;
-  flex-direction: column;
   margin-right: 1rem;
 }
 .services .passeport {
   margin-top: 6em;
+}
+.services h3 {
+  text-align: center;
+}
+.services p {
+  text-align: center;
+}
+.services p::after {
+  content: ">";
+  color: orange;
 }
 
 /*# sourceMappingURL=style.css.map */

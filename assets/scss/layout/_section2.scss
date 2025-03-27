@@ -5,34 +5,43 @@
 .services {
     margin-top: 2rem;
     display: flex;
-
         .srv1 {
-            background-image: url(/assets/img/homme-assis-batiment.jpg);
+            background:linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/homme-assis-batiment.jpg);
             background-size: cover;
             background-position: center;
             height: 65vh;
         }
         .srv2 {
-            background-image: url(/assets/img/passport.jpg);
+            background:linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/passport.jpg);
             background-size: cover;
             background-position: center;
             height: 32vh;
         }
         .srv3 {
-            background-image: url(/assets/img/montgolfiere.jpg);
+            background:linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/montgolfiere.jpg);
             background-size: cover;
             background-position: center;
             height: 30vh;
             margin-top: 1rem;
+
+            
         }
     div {
         width: 100%;
-        display:flex;
-        flex-direction: column;
         margin-right: 1rem;
     }
     .passeport {
         margin-top: 6em;
        
+    }
+    h3 {
+        text-align: center;
+    }
+    p  {
+        text-align: center;
+    }
+    p::after {
+        content: ">";
+        color: orange;
     }
 }
