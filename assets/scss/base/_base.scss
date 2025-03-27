@@ -23,6 +23,10 @@ h3{
     font-size: 2rem;
     text-transform:uppercase;
 }
+h4 {
+    font-family: variable.$font-bold;
+        font-size: 1.5rem;
+}
 p {
     font-family: variable.$font-regular;
     color: variable.$color-secondary;
