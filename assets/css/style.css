@@ -83,7 +83,7 @@ p {
   display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .nav-bar {
     display: block;
     padding: 0.5rem 0.7rem;
@@ -146,7 +146,7 @@ p {
   margin-bottom: -34rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .ban-top .txt {
     margin-left: 0;
     margin-right: 0px;
@@ -213,7 +213,7 @@ p {
   width: 100%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .container .services {
     width: 100%;
     margin-bottom: 15rem;
@@ -270,7 +270,7 @@ p {
   text-align: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .container .features .wave {
     margin-left: -5rem;
     min-height: 1200px;
@@ -306,7 +306,7 @@ p {
   align-content: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .ban-bot {
     flex-direction: column;
   }
@@ -374,7 +374,7 @@ footer .footer-bot p {
   text-align: start;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   footer .footer-top {
     flex-direction: column;
     justify-content: center;
