@@ -5,6 +5,8 @@
 .container {
     .services {
         margin-top: 2rem;
+        min-height: 500px;
+        margin-bottom: 7rem;
 
         width: 100%;
         .passeport {
@@ -14,6 +16,7 @@
         }
         .passeport {
             display: flex;
+            height: 100%;
 
             h3 {
                 text-align: center;
@@ -31,7 +34,7 @@
                 background:linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.692)), url(/assets/img/homme-assis-batiment.jpg);
                 background-size: cover;
                 background-position: center;
-                height: 65vh;
+                height: 100%;
                 width: 100%;
             }
             .srv2 {
@@ -57,4 +60,37 @@
 
     }
 
+}
+@media screen and (max-width: 375px) {
+.container{
+    .services {
+        width: 100%;
+        margin-bottom: 15rem;
+        .srv2  {
+            width: 100%;
+            min-height: 300px;
+        }
+        .srv3  {
+            width: 100%;;
+            margin-bottom: 1rem;
+            min-height: 300px;
+        }
+        .passeport   {
+            flex-direction: column;
+            height: 100%;
+            .srv1  {
+                width: 100%;
+                margin-bottom: 1rem;
+                min-height: 200px;
+            }
+
+        }
+        .left {
+
+
+        }
+    }
+}
+
+    
 }
