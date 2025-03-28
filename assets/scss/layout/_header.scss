@@ -24,7 +24,7 @@
 .nav-bar {
     display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: variable.$breakpoint-md) {
     .nav-bar {
         display: block;
         padding: 0.5rem 0.7rem;
