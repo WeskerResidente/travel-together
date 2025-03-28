@@ -79,12 +79,12 @@ p {
   color: #000;
 }
 
-.fa-solid {
+.nav-bar {
   display: none;
 }
 
 @media screen and (max-width: 375px) {
-  .fa-solid {
+  .nav-bar {
     display: block;
     padding: 0.5rem 0.7rem;
     border-radius: 5%;
@@ -270,6 +270,24 @@ p {
   text-align: center;
 }
 
+@media screen and (max-width: 375px) {
+  .container .features .wave {
+    margin-left: -5rem;
+    min-height: 1200px;
+    min-width: 1440px;
+    margin-top: -65rem;
+  }
+  .container .features .block-card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container .features .block-card p {
+    margin-bottom: 2rem;
+  }
+  .container .features .block-card .card {
+    width: 50%;
+  }
+}
 .ban-bot {
   display: flex;
   justify-content: space-between;
