@@ -22,3 +22,14 @@
         align-content: center;
     }
 }
+@media screen and (max-width: 375px) {
+    .ban-bot {
+        flex-direction: column;
+        div {
+            width: 100%;
+        }
+        .btn-bot {
+            width: 100%;
+        }
+    }
+}

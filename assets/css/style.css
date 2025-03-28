@@ -306,6 +306,17 @@ p {
   align-content: center;
 }
 
+@media screen and (max-width: 375px) {
+  .ban-bot {
+    flex-direction: column;
+  }
+  .ban-bot div {
+    width: 100%;
+  }
+  .ban-bot .btn-bot {
+    width: 100%;
+  }
+}
 footer {
   margin-top: -11rem;
   background-color: black;
