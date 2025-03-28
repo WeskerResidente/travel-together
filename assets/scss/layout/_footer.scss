@@ -17,7 +17,7 @@ footer {
         border-bottom: white solid 1px;
         padding-bottom: 2rem;
             .Logo-white {
-                width: 50;
+                width: 50%;
                 img {
                     width: 50%;
                 }
@@ -57,6 +57,41 @@ footer {
         p {
             margin:0;
             text-align: start;
+        }
+
+    }
+}
+@media screen and (max-width: 375px) {
+    footer {
+        .footer-top  {
+            flex-direction: column;
+            justify-content: center;
+            border-bottom: none;
+            .Logo-white {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            .nav-footer {
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    li {
+                        margin-top: 1rem;
+                    }
+                }
+
+            }
+        }
+        .footer-bot  {
+            flex-direction: column;
+            align-items: center;
+            .icon  {
+                margin-top: 5rem;
+
+            }
         }
 
     }
