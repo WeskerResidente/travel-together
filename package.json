@@ -8,6 +8,7 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass -w assets/scss:assets/css"
+    
   },
   "dependencies": {
     "sass": "^1.86.0"

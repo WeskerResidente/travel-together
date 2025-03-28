@@ -11,6 +11,10 @@ body {
   margin: 0 auto;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -21,7 +25,7 @@ body {
 h1 {
   font-family: "Lato Bold";
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -75,6 +79,29 @@ p {
   color: #000;
 }
 
+.fa-solid {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  .fa-solid {
+    display: block;
+    padding: 0.5rem 0.7rem;
+    border-radius: 5%;
+    border: rgba(122, 122, 122, 0.486) 1px solid;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav {
+    display: none;
+  }
+  .container img {
+    margin-top: 0.5rem;
+    width: 75%;
+  }
+}
 .banniere {
   margin-top: 2rem;
   padding: 2rem 3rem 5rem 2rem;
@@ -119,6 +146,15 @@ p {
   margin-bottom: -34rem;
 }
 
+@media screen and (max-width: 375px) {
+  .ban-top .txt {
+    margin-left: 0;
+    margin-right: 0px;
+  }
+  .ban-top .img-phone {
+    display: none;
+  }
+}
 .picture {
   border-radius: 10px;
   box-shadow: 0 0 5px black;
@@ -177,7 +213,7 @@ p {
 .container .features .wave {
   z-index: -1;
   position: absolute;
-  margin-left: -13rem;
+  margin-left: -21rem;
   margin-top: -28rem;
   width: 100%;
 }

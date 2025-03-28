@@ -4,6 +4,10 @@ body {
     font-family: variable.$font-regular;
     margin: 0 auto;
 }
+* {
+    box-sizing: border-box;
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -13,7 +17,7 @@ body {
 h1 {
     font-family: variable.$font-bold;
     color: variable.$color-secondary;
-    font-size: 3rem;
+    font-size: 2rem;
 
 }
 h2 {
